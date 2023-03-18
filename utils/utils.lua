@@ -137,11 +137,11 @@ function setSVGOffset(id, value)
         if (svg.type == 'rounded-rectangle' ) then 
             local rect = svg.svgDetails.rect
             
-            local reverseValue = 100 - value
 
-            local newValue = svg.length - (svg.length / 100) * reverseValue
-            
-            xmlNodeSetAttribute(rect, 'height', newValue)
+            local newValue = (svg.length / 100) * cache[id][2]
+            local reverseWidth = svg.width - newValue
+
+            xmlNodeSetAttribute(rect, 'height', reverseWidth)
             svgSetDocumentXML(svg.svgDetails.svg, svg.svgDetails.xml)
         end
 
