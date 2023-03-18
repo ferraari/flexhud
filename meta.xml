@@ -1,0 +1,21 @@
+<meta>
+    <info author="ferrari" version="1.0" />
+    <min_mta_version client="1.5.8-9.20979"></min_mta_version>
+    
+    <script src="configs/config.lua" type="shared" />
+    
+    <script src="utils/utils.lua" type="client" />
+    <script src="main.lua" type="client" />
+    
+    <file src="assets/images/icon_vida.png" />
+    <file src="assets/images/icon_colete.png" />
+    <file src="assets/images/icon_comida.png" />
+    <file src="assets/images/icon_voz.png" />
+    <file src="assets/images/icon_agua.png" />
+    <file src="assets/images/gasolina_icon.png" />
+    <file src="assets/images/cinto.png" />
+    <file src="assets/fonts/Poppins-Medium.ttf" />
+    <file src="assets/fonts/Rajdhani-SemiBold.ttf" />
+
+
+</meta>
