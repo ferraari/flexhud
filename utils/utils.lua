@@ -183,6 +183,8 @@ function isCursorInPosition(x, y, width, height)
     return cursorX >= x and cursorX <= x + width and cursorY >= y and cursorY <= y + height
 end
 
+
+-- ACHEI ISSO NA DEEPWEB, NÃO É A MELHOR MANEIRA DE FAZER MAS FUNCIONA
 function getElementSpeed(theElement, unit)
     -- Check arguments for errors
     assert(isElement(theElement), "Bad argument 1 @ getElementSpeed (element expected, got " .. type(theElement) .. ")")
