@@ -1,5 +1,5 @@
 <meta>
-    <info author="ferrari" version="1.0" />
+    <info author="zk_ferrari" version="1.0" />
     <min_mta_version client="1.5.8-9.20979"></min_mta_version>
     
     <script src="configs/config.lua" type="shared" />
@@ -19,3 +19,5 @@
 
 
 </meta>
+
+
